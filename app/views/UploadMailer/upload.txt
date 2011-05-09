@@ -1,0 +1,36 @@
+IP: ${ipAddress}
+
+File Name: ${response.originalFileName}
+File Size: ${response.original.sizeInBytes} bytes
+
+Key: ${response.uniqueFileKey}
+
+Original
+----------------
+${response.original.width}x${response.original.height}
+${response.original.sizeInBytes} bytes
+${response.original.url}
+
+Thumbnail
+---------------- 
+${response.thumbnail.width}x${response.thumbnail.height}
+${response.thumbnail.sizeInBytes} bytes
+${response.thumbnail.url}
+
+Small
+----------------
+${response.small.width}x${response.small.height}
+${response.small.sizeInBytes} bytes
+${response.small.url}
+
+Medium
+----------------
+${response.medium.width}x${response.medium.height}
+${response.medium.sizeInBytes} bytes
+${response.medium.url}
+
+Large
+----------------
+${response.large.width}x${response.large.height}
+${response.large.sizeInBytes} bytes
+${response.large.url}

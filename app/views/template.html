@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>#{get 'subtitle' /} - imgscalr.com</title>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Free Drag and Drop Image Hosting and Scaling">
+		<meta name="keywords" content="image host, drag and drop upload, HTML5, image resize, image scaling, free image hosting">
+		<meta name="author" content="The Buzz Media, LLC">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="shortcut icon" href="/public/images/favicon.png">
+		<link rel="apple-touch-icon" href="/public/image/favicon-large.png">
+		
+		#{get 'scripts' /}
+		<link rel="stylesheet" href="/public/css/main.css" media="screen">
+	</head>
+    <body id="body">
+		#{doLayout /}
+		
+		<script type="text/javascript">
+		var clicky = { log: function(){ return; }, goal: function(){ return; }};
+		var clicky_site_id = 66378844;
+		(function() {
+		  var s = document.createElement('script');
+		  s.type = 'text/javascript';
+		  s.async = true;
+		  s.src = ( document.location.protocol == 'https:' ? 'https://static.getclicky.com/js' : 'http://static.getclicky.com/js' );
+		  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+		})();
+		</script>
+	</body>
+</html>
